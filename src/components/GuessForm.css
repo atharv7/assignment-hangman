@@ -1,0 +1,18 @@
+.GuessFormClass {
+  text-align:center;
+  font-size:25px;
+  padding:10px;
+  border:dashed thin black;
+}
+.GuessFormClass::-webkit-input-placeholder {
+text-align: center;
+}
+.GuessFormClass:-moz-placeholder { /* Firefox 18- */
+text-align: center;
+}
+.GuessFormClass::-moz-placeholder {  /* Firefox 19+ */
+text-align: center;
+}
+.GuessFormClass:-ms-input-placeholder {
+text-align: center;
+}

@@ -1,7 +1,8 @@
 import React from 'react'
+import './GuessForm.css'
 
 export class GuessForm extends React.Component {
   render() {
-    return (<input type="text" placeholder="GUESS HERE" />);
+    return (<input className="GuessFormClass" type="text" placeholder="GUESS HERE" />);
   }
 }
