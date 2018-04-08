@@ -3,6 +3,7 @@
   font-size:25px;
   padding:10px;
   border:dashed thin black;
+  text-transform:uppercase;
 }
 .GuessFormClass::-webkit-input-placeholder {
 text-align: center;

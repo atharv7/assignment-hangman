@@ -16,3 +16,7 @@ export class GameBoard extends React.Component {
     );
   }
 }
+
+
+
+export default GameBoard
