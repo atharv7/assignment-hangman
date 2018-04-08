@@ -1,5 +1,6 @@
 import React from 'react'
-import {NewGameButton,WordDisplayer,StatsDisplayer,GuessForm} from '../components/index'
+import { connect } from 'react-redux'
+import {NewGameButton,WordDisplayer,StatsDisplayer,GuessForm} from '../components'
 export class GameBoard extends React.Component {
   render(){
     return (
@@ -19,4 +20,4 @@ export class GameBoard extends React.Component {
 
 
 
-export default GameBoard
+export default connect(null)(GameBoard)

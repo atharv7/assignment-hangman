@@ -1,5 +1,6 @@
 import React from 'react'
 import './GuessForm.css'
+import { connect } from 'react-redux'
 
 export class GuessForm extends React.Component {
   onKeyUpHandler(e) {
@@ -8,6 +9,9 @@ export class GuessForm extends React.Component {
   }
 
   render() {
+    const {gameWord} = this.props
     return (<input className="GuessFormClass" type="text" placeholder="GUESS HERE" onKeyUp={this.onKeyUpHandler} />);
   }
 }
+
+export default connect (null)(GuessForm)
